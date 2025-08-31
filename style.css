@@ -13,11 +13,9 @@ body {
 
 .header-container {
     height: 80px;
-    padding: 16px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 8px;
+    justify-content: space-between;
     background-color: #1f2937;
     padding: 10px 200px;
 }
@@ -35,10 +33,22 @@ body {
     color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
-    display: flex;
-    /* padding: 200px; */
     flex: 2 1 auto;
     justify-content: left;
+}
+
+.header-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.header-links a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 .top-section {
@@ -77,16 +87,26 @@ body {
     margin: 0;
 }
 
-#sign-up {
-    display: flex;
+.button-primary {
+    width: 120px;
+    margin-top: 8px;
     background-color: #3882f6;
     color: white;
-    width: 120px;
-    height: 40px;
+}
+
+.button {
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+
+    font-size: 18px;
     font-weight: bold;
     border-radius: 8px;
+    padding: 8px 12px;
 }
 
 .placeholder {
@@ -116,12 +136,12 @@ body {
 
 .info-specific {
     display: flex;
+    gap: 52px;
 }
 
 .info-item {
     display: flex;
     flex-direction: column;
-    margin: 30px;
     justify-content: center;
     align-items: center;
 }
@@ -212,10 +232,10 @@ body {
     font-size: 15px;
 }
 
-.call.sign {
-    border: 3px solid white;
-    border-radius: 15px;
-    padding: 8px 25px;
+.button-secondary {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
 }
 
 #copyright {
