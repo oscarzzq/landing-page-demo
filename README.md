@@ -25,10 +25,6 @@ The website follows a classic landing page structure, featuring several distinct
 
 This project is intentionally built without any JavaScript to focus purely on static page design and layout skills.
 
-## **Live Demo**
-
-*\[Optional: If you deploy your site using GitHub Pages, you can add a link to it here\!\]*
-
 ## **Setup**
 
 No special setup is required. To view the project, simply open the index.html file in any modern web browser.
